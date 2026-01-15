@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       <section id="about-me">
-        <h2 className="slug">Field notes / About me:</h2>
+        <h2 className="slug">Field notes / About me</h2>
         <ul>
           <li>
             <span>
