@@ -51,13 +51,13 @@ export const metadata: Metadata = {
   title: "Ike Umunnah One Pager",
   description: "Ike Umunnah One Pager, Washington, D.C.",
   alternates: {
-    canonical: "/fieldonepager/",
+    canonical: "/onepager",
   },
   openGraph: {
     type: "website",
     title: "Ike Umunnah One Pager",
     description: "Washington, D.C.",
-    url: "/fieldonepager/",
+    url: "/onepager",
     images: [
       {
         url: "/assets/og.jpg",
