@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-export default function OnePager() {
+export default function fieldonepager() {
   return (
     <main className="container">
       <section id="top" className="top-grid" aria-label="Top">

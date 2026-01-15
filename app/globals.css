@@ -425,7 +425,7 @@ img {
   max-width: 100% !important;
 }
 
-.field-onepager {
+.field-fieldonepager {
   font-family: var(--font-dancing-script, 'Dancing Script'), cursive;
   font-size: 25.3px;
   line-height: 1.1;
@@ -640,7 +640,7 @@ img {
     font-size: clamp(27.6px, 9.89vw, 75.9px) !important;
   }
 
-  .field-onepager {
+  .field-fieldonepager {
     font-size: clamp(18.4px, 4.37vw, 25.3px);
   }
 }
