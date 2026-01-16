@@ -1,12 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Allura,
-  Caveat,
-  Courier_Prime,
-  Dancing_Script,
-  Lobster_Two,
-  Mr_Dafoe,
-} from "next/font/google";
+import { Caveat, Courier_Prime } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -18,33 +11,8 @@ const courierPrime = Courier_Prime({
 
 const caveat = Caveat({
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["400", "600", "700"],
   variable: "--font-caveat",
-});
-
-const allura = Allura({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-allura",
-});
-
-const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  weight: ["600", "700"],
-  variable: "--font-dancing-script",
-});
-
-const lobsterTwo = Lobster_Two({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  variable: "--font-lobster-two",
-});
-
-const mrDafoe = Mr_Dafoe({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-mr-dafoe",
 });
 
 export const metadata: Metadata = {
@@ -89,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${courierPrime.variable} ${caveat.variable} ${allura.variable} ${dancingScript.variable} ${lobsterTwo.variable} ${mrDafoe.variable} antialiased`}
+        className={`${courierPrime.variable} ${caveat.variable} antialiased`}
       >
         {children}
         <Analytics />
