@@ -90,22 +90,16 @@ export default function fieldonepager() {
         <ul>
           <li>
             <strong>BIDEN ADMINISTRATION.</strong> Presidential Appointee Chief
-            Strategy Officer, Global Markets U.S. Department of Commerce
-            <ul>
-              <li>
-                Represented the United States across more than 20 countries,
+            Strategy Officer, Global Markets U.S. Department of Commerce. Represented the United States across more than 20 countries,
                 including Brazil, India, Saudi Arabia, Spain, and Azerbaijan.
                 Shaped strategy that positioned U.S. companies for wins across
                 sectors. Negotiated directly with Foreign Ministers,
                 Ambassadors, and Senior Executives.
-              </li>
-              <li>
-                I measured silence, knowing when to speak and when to let the
+                <br></br>
+                <br></br>I measured silence, knowing when to speak and when to let the
                 weight of American soft power do the work. In Sao Paulo, I
                 acted. In Riyadh, I measured. Dispatched when outcomes mattered
                 most.
-              </li>
-            </ul>
           </li>
           <li>
             <strong>COLUMBIA UNIVERSITY. </strong>Faculty at Columbia. Teaching
@@ -266,7 +260,7 @@ export default function fieldonepager() {
           <div className="field-off-duty__dog">
             <figure className="taped-photo small">
               <img
-                src="/assets/dog.jpg"
+                src="/assets/dog.png"
                 alt="Doberman Pinscher photo"
                 loading="lazy"
               />
